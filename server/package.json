@@ -1,0 +1,15 @@
+{
+  "name": "zap-chat-server",
+  "version": "1.0.0",
+  "description": "Server of app ZapServer",
+  "main": "index.js",
+  "scripts": {
+    "start": "node index"
+  },
+  "author": "Rafael Filho",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.16.3",
+    "socket.io": "^2.1.0"
+  }
+}
