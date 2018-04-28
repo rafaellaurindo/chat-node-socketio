@@ -20,7 +20,9 @@ Start the server:
 $ npm run start
 ```
 
-Now server is ready. Running on http:/your-local-ip:3000/
+###### Now server is running on [http:/your-local-ip:3000]
+
+#
 
 ### Requires
 
@@ -33,3 +35,4 @@ Want to contribute? Great!
 Fork this project, makes your changes and send us.
 
 [project zip]: <https://github.com/rafaelfilholm/chat-node-socketio/archive/master.zip>
+[http:/your-local-ip:3000]: <[http:/your-local-ip:3000]>
