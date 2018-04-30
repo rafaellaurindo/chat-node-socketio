@@ -7,7 +7,7 @@ Clone the project from github or download the [project zip]:
 ```
 $ git clone https://github.com/rafaelfilholm/chat-node-socketio.git 
 ```
-Open the project folder on terminal:
+Open the server folder on terminal:
 ```
 $ cd server/
 ```
