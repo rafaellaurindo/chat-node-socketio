@@ -22,6 +22,8 @@ io.on('connection', (socket) => {
 
 const porta = process.env.PORT || 3000;
 
+app.get('/', (req, res)=>res.send('Server is running!'));
+
 http.listen(porta, () => {
     console.log('Servidor está rodando em http://localhost:' + porta);
 });
