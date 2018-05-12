@@ -1,1 +1,5 @@
 @import "https://fonts.googleapis.com/icon?family=Material+Icons"; 
+
+#divRegistro, #divChat, .progress, .btnLogout{
+    display: none;
+}

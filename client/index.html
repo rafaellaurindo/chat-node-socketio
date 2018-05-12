@@ -19,8 +19,9 @@
             <a href="#" class="brand-logo padding">NodeChat</a>
             <a href="#" data-target="mobile-demo" class="sidenav-trigger"><i class="material-icons">menu</i></a>
             <ul id="nav-mobile" class="right hide-on-med-and-down">
-                <li><a href="" target="_blank">Repository</a></li>
+                <li><a href="https://github.com/rafaelfilholm/chat-node-socketio/" target="_blank">Repository</a></li>
                 <li><a href="https://github.com/rafaelfilholm/chat-node-socketio/blob/master/README.md" target="_blank">About</a></li>
+                <li class="btnLogout"><a>Sair</a></li>
             </ul>
         </div>
     </nav>
@@ -30,20 +31,32 @@
         <li><a href="https://github.com/rafaelfilholm/chat-node-socketio/blob/master/README.md" target="_blank">About</a></li>
     </ul>
     
+    <div class="col s10 m8 progress">
+        <div class="indeterminate"></div>
+    </div>
     
-    <div class="row">
+    <!-- Register -->
+    <div id="divRegistro" class="row">
         <div class="col s12 m8 offset-m3">
             <h5>First set a username</h5>
             <p>Your username will be used to other user know you on chat's messages.</p>
-            <form>
+            <form id="registerOnChat">
                 <div class="row">
                     <div class="input-field col s12 m8">
-                        <input placeholder="Type here your username" id="username" type="text" class="validate">
-                        <label for="username">Username</label>
+                        <i class="material-icons prefix">account_circle</i>
+                        <input placeholder="Type here your username" id="usernameRegister" type="text" minlength="6" required>
+                        <label for="usernameRegister">Username:</label>
                     </div>
                 </div>
-                <a class="waves-effect waves-light btn"><i class="material-icons right">send</i>send</a>
+                <button type="submit" class="waves-effect waves-light btn"><i class="material-icons right">send</i>Enter</button>
             </form>
+        </div>
+    </div>
+
+    <!-- Chat -->
+    <div id="divChat" class="row">
+        <div class="col s12 m8 offset-m3">
+            <h5>Chat</h5>
         </div>
     </div>
     

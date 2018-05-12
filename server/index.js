@@ -7,6 +7,7 @@ io.on('connection', (socket) => {
     socket.on('username-definido', (username) => { 
         socket.username = username;
         io.emit('usuarios-atualizados', { usuario: username, evento: 'entrou'});
+        console.log(username + ' entrou na conversa.')
     });
     
     socket.on('nova-mensagem', (mensagem) => {
